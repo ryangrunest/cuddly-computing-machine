@@ -1,7 +1,13 @@
-<template><div>This is the index page</div></template>
+<template>
+  <NavBar />
+</template>
 
 <script>
-export default {};
+import NavBar from "@/components/navbar";
+export default {
+  name: "Index",
+  components: { NavBar },
+};
 </script>
 
 <style></style>
