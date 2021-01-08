@@ -4,7 +4,10 @@
       <div class="container">
         <div class="box">
           <div class="content is-medium">
-            <h2>hello {{ user }}. If you're looking for a:</h2>
+            <h2>
+              hello <span class="has-text-primary">{{ user }}</span
+              >. If you're looking for a:
+            </h2>
             <ul>
               <li>easy to use stock ticker tracker</li>
               <li>good time</li>
